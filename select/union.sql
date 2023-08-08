@@ -1,0 +1,7 @@
+SELECT Name FROM genre
+UNION
+SELECT Name FROM artist;
+
+SELECT Name FROM genre
+UNION ALL
+SELECT Name FROM artist;
